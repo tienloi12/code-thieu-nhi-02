@@ -15,10 +15,6 @@ function f(N)
    {
     return 3;
    }
-   if (N==3)
-   {
-    return 5;
-   }
    return f(N-1)+ (2*f(N-2) )
 }
 addN.addEventListener("click",showresultX)
